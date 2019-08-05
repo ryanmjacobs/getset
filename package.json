@@ -1,7 +1,7 @@
 {
   "name": "getset",
   "version": "0.0.1",
-  "description": "",
+  "description": "A REST Key-Value Store... with only a single pair.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
