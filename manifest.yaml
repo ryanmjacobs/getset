@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: is-ryan-working-backend
+  name: getset
   labels:
-    name: is-ryan-working-backend
+    name: getset
 spec:
   containers:
-  - name: is-ryan-working-backend
-    image: ryanmjacobs/is-ryan-working-backend:1.00
+  - name: getset
+    image: ryanmjacobs/getset:0.01
     ports:
     - containerPort: 2000
     env:
@@ -17,10 +17,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: is-ryan-working-backend
+  name: getset
 spec:
   selector:
-    app: is-ryan-working-backend
+    app: getset
   ports:
   - protocol: TCP
     port: 80

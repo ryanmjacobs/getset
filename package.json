@@ -1,5 +1,5 @@
 {
-  "name": "is-ryan-working-on-my-stuff-right-now_backend",
+  "name": "getset",
   "version": "0.0.1",
   "description": "",
   "main": "app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanmjacobs/is-ryan-working-on-my-stuff-right-now.git"
+    "url": "git+https://github.com/ryanmjacobs/get.git"
   },
   "author": "Ryan Jacobs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryanmjacobs/is-ryan-working-on-my-stuff-right-now/issues"
+    "url": "https://github.com/ryanmjacobs/getset/issues"
   },
-  "homepage": "https://github.com/ryanmjacobs/is-ryan-working-on-my-stuff-right-now#readme",
+  "homepage": "https://github.com/ryanmjacobs/getset",
   "dependencies": {
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
